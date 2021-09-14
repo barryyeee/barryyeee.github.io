@@ -3,16 +3,18 @@
     width: 100vw;
     background-color: white;
     color: black;
-    font-size: 16px;
+    font-size: 12px;
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
     align-items: center;
     justify-content: center;
     letter-spacing: 2px;
 }
 .middle-text{
     text-align: center;
+    padding-bottom: 50px;
 }
 .middle-text p{
     margin: 0 0 10px 0;
@@ -20,7 +22,9 @@
 }
 .bottom-tips{
     position: absolute;
-    bottom: 20px;
+    padding-bottom: 20px;
+    bottom: 0;
     text-align: center;
     font-family: "Orator", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 10px;
 }

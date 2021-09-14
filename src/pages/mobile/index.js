@@ -5,7 +5,7 @@ export default class Mobile extends Component {
         return(
             <div className="mobile-container">
                 <div className="middle-text">
-                    <p>Hello,barry:)</p>
+                    <p style={{fontWeight: 400}}>Hello,barry:)</p>
                     <p style={{textDecoration: 'underline'}}>shenqiye@usc.edu</p>
                 </div>
                 <div className="bottom-tips">

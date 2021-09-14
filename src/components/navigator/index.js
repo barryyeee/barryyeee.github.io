@@ -2,12 +2,14 @@ import React, { Component } from "react";
 import "./navigator.css";
 import { matchPath } from "react-router";
 import history from "../../utils/history";
+
+const workPath = ['/game', '/design', '/application', '/drawing', '/work'];
 export default class Navigator extends Component {
     constructor() {
         super();
         this.state = {
             nav: [
-                { title: "A B O U T", path: "/about" },
+                { title: "A B O U T", path: "/" },
                 { title: "W O R K", path: "/work" }
             ],
             activeId: this.getCurrentPageIndex()
@@ -15,8 +17,8 @@ export default class Navigator extends Component {
     }
     getCurrentPageIndex() {
         const currentPath = history.location.pathname;
-        const isAboutPage = matchPath(currentPath, {
-            path: "/about",
+        const isAboutPage = !matchPath(currentPath, {
+            path: workPath,
             exact: true,
             strict: false
         });
