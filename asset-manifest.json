@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.bb6d6ce1.chunk.css",
-    "main.js": "/static/js/main.41e28cf9.chunk.js",
-    "main.js.map": "/static/js/main.41e28cf9.chunk.js.map",
+    "main.css": "/static/css/main.1098812c.chunk.css",
+    "main.js": "/static/js/main.a607797a.chunk.js",
+    "main.js.map": "/static/js/main.a607797a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e95ea533.js",
     "runtime-main.js.map": "/static/js/runtime-main.e95ea533.js.map",
     "static/js/2.771d511a.chunk.js": "/static/js/2.771d511a.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.96195982.chunk.js": "/static/js/3.96195982.chunk.js",
     "static/js/3.96195982.chunk.js.map": "/static/js/3.96195982.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.bb6d6ce1.chunk.css.map": "/static/css/main.bb6d6ce1.chunk.css.map",
+    "static/css/main.1098812c.chunk.css.map": "/static/css/main.1098812c.chunk.css.map",
     "static/js/2.771d511a.chunk.js.LICENSE.txt": "/static/js/2.771d511a.chunk.js.LICENSE.txt",
     "static/media/CV.pdf": "/static/media/CV.f9f13185.pdf",
     "static/media/dog_quest.mp4": "/static/media/dog_quest.cb5ea20f.mp4",
@@ -83,7 +83,7 @@
   "entrypoints": [
     "static/js/runtime-main.e95ea533.js",
     "static/js/2.771d511a.chunk.js",
-    "static/css/main.bb6d6ce1.chunk.css",
-    "static/js/main.41e28cf9.chunk.js"
+    "static/css/main.1098812c.chunk.css",
+    "static/js/main.a607797a.chunk.js"
   ]
 }
