@@ -1,12 +1,34 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Router } from 'react-router-dom';
+import Layout from "./components/layout/index.js";
+import history from './utils/history';
+import RouterMap from './router/routerMap.js';
+import Mobile from './pages/mobile';
+import isMobilePlatform from './utils/isMobilePlatform';
+import "./index.css";
+
+function App() {
+  if (isMobilePlatform) {
+    return <Mobile />
+  }
+  else {
+    return (
+      <Router history={history}>
+        <Layout>
+          <RouterMap />
+        </Layout>
+      </Router>
+    )
+  }
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div className="App">
+      <App />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );

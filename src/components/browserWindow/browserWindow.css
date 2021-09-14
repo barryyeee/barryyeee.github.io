@@ -1,0 +1,69 @@
+.brower-window-container{
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.15);
+    position: relative;
+    padding: 35px 1px 1px;
+    max-width: 100%;
+}
+.window-title{
+    position: absolute;
+    top: 10px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: lighter;
+    color: #666;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.window-icons{
+    position:absolute;
+    margin: 0;
+    padding: 0;
+    top: 8px;
+    left: 10px;
+}
+.window-icons li{
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    position: relative;
+}
+.img-style{
+    width: 100%;
+    height: auto;
+}
+.mobile-frame-container{
+    width: 310px;
+    position: relative;
+    height: auto;
+    border: 0;
+    background-size: 100% 100%;
+    background-image: url('../../resources/phone_frame.png');
+}
+.play-btn{
+    width: 128px;
+    height: 128px;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    visibility: visible;
+    background-image: url("../../resources/UI/video_play.png");
+}
+.gif-style{
+    width: 82%;
+    height: auto;
+    margin: 57px 27px;
+}

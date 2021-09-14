@@ -1,0 +1,32 @@
+#box {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	min-height: 100vh;
+}
+.flex_div {
+	padding-top: calc(45vh);
+	background: white;
+	border-right-color: #E2E2E2;
+	border-right-style: solid;
+	border-right-width: thin;
+	text-align: center;
+	width: 25%;
+}
+.flex_div button {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	color: #959595;
+	font-size: 36px;
+	font-weight: lighter;
+	font-family: "Orator", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.flex_div button:hover {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	color: black;
+	font-size: 36px;
+	font-weight: lighter;
+}
