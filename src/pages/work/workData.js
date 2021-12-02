@@ -26,6 +26,16 @@ export const GameData = {
                 "Adobe Illustrator"
             ],
             showViewMoreBtn: false
+        },
+        {
+            workTitle: "Light Up the Earth",
+            imgUrl: "work_game_03.JPG",
+            externalUrl: "https://526lightuptheearth.github.io/",
+            description: "LIGHT UP THE EARTH is a 3D single-player FPS game run on iOS mobile devices. It takes inspiration from a classical flash game called “GOLD MINER”(you can see I am quite fond of this game!) but we move it to the universe! The player’s mission is to control the spaceship to collect enough scores within a limited time. Except for the original designs about props and shopping systems, we also added an enemies system in the form of pirate ships.\n\nAs the leader of this project, I was mainly responsible for the core mechanic design, development, and the GUI of level scenes. More information can be found on our project website.",
+            tagList: [
+                "Unity"
+            ],
+            showViewMoreBtn: true
         }
     ]
 }
@@ -38,7 +48,7 @@ export const DrawingData = {
             workTitle: "Construction Art",
             imgUrl: "work_drawing_poster1.jpg",
             showViewMoreBtn: true,
-            details: ['work_draw_cr1.JPG','work_draw_cr2.JPG', 'work_draw_cr3.JPG', 'work_draw_cr4.JPG', 'work_draw_cr5.jpg' ],
+            details: ['work_draw_cr1.JPG', 'work_draw_cr2.JPG', 'work_draw_cr3.JPG', 'work_draw_cr4.JPG', 'work_draw_cr5.jpg'],
             introduction: {
                 title: 'Coursework of Construction Art',
                 year: '2017',
@@ -64,7 +74,7 @@ export const DrawingData = {
         }
     ]
 }
-export const DesignData= {
+export const DesignData = {
     themeColor: "#96A48B",
     title: "Graphic Visual Design",
     subTitle: "Typesetting, Poster, UI and Photo Processing",

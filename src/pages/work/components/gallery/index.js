@@ -37,11 +37,11 @@ export default class Gallery extends Component {
     render() {
         return (
             <div className="gallery-container" ref={this.compareRef}>
-                <BrowerWindow 
-                    title={this.props.workTitle} 
-                    picUrl={this.props.imgUrl} 
-                    videoUrl={this.props.videoUrl} 
-                    usePhone={this.props.usePhone} 
+                <BrowerWindow
+                    title={this.props.workTitle}
+                    picUrl={this.props.imgUrl}
+                    videoUrl={this.props.videoUrl}
+                    usePhone={this.props.usePhone}
                     needPreload={true}
                     compareRef={this.compareRef}
                 />
@@ -52,7 +52,8 @@ export default class Gallery extends Component {
                             <li key={`dot-${index}`} className="tag-item">{tag}</li>
                         ))}
                     </ul>}
-                {this.props.showViewMoreBtn && <button className="show-detail-bt" onClick={this.constrolShowWindow.bind(this)}>VIEW MORE</button>}
+                {this.props.showViewMoreBtn && !this.props.externalUrl && <button className="show-detail-bt" onClick={this.constrolShowWindow.bind(this)}>VIEW MORE</button>}
+                {this.props.showViewMoreBtn && this.props.externalUrl && <a className="external-link" target="_blank" href={this.props.externalUrl} rel="noreferrer">VIEW MORE</a>}
                 <div style={{ width: '100%', height: '80px' }}></div>
                 {this.props.details && <div className="show-window-container" ref={this.showWindowRef}>
                     <div ref={this.scrollRef} className="detail-content-container" style={{ transform: `translate3d(${this.state.currentOffset}px, 0px, 0px)` }}>

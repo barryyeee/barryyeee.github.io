@@ -31,6 +31,23 @@
     height: fit-content;
     margin: 30px;
 }
+.external-link{
+    text-decoration: none;
+    width: 140px;
+    text-align: center;
+    background: 0 0;
+    padding: 10px 0;
+    color: #000;
+    border: 1px solid #000;
+    height: fit-content;
+    margin: 30px;
+    font-size: 14px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+.external-link:hover{
+    background-color: black;
+    color: white;
+}
 .show-detail-bt:hover {
     background-color: black;
     color: white;
