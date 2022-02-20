@@ -47,9 +47,8 @@ export default class TopIntro extends Component {
                     <pointLight position={[-20, -5, -10]} color="white" intensity={0.8} />
                     <Suspense fallback={null} >
                         <Icosahedron textureIndex={this.state.randomIndex} changeSkin={(newIndex) => { this.changeSkin(newIndex) }} />
-                        <Environment preset="warehouse" />
                     </Suspense>
-                    <OrbitControls autoRotate={true} enableZoom={false} />
+                    <OrbitControls autoRotate={true} enableZoom={false} enablePan={false} />
                 </Canvas>
                 <Loader />
             </div>
